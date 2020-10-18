@@ -5,8 +5,27 @@ import project3 from "../../images/netflix.png";
 import project4 from "../../images/covid19.jpeg";
 import project5 from "../../images/html-css-javascript-lg.jpg";
 import project6 from "../../images/snake.jpeg";
+import project7 from '../../images/react-redux.png'
 
 const Details = [
+  {
+    ProjectNo: "Ecommerce-Website",
+    AboutProject: [
+      <p>A Ecommerce-website made using, </p>,
+
+      <ul>
+        <li>REACT-js</li>
+        <li>Redux</li>
+        <li>SASS</li>
+        <li>Node.js</li>
+        <li>Stripe</li>
+      </ul>,
+      <h3>Run LIVE DEMO to see the project!</h3>,
+    ],
+
+    Image: `${project7}`,
+    url: "https://ecommerse-website.herokuapp.com/",
+  },
   {
     ProjectNo: "PORTFOLIO",
     AboutProject: [
@@ -16,6 +35,7 @@ const Details = [
         <li>REACT-js</li>
         <li>Material-ui</li>
         <li>Firebase</li>
+        <li>Node.js</li>
       </ul>,
       <h3>Run LIVE DEMO to see the project!</h3>,
     ],
@@ -32,6 +52,7 @@ const Details = [
         <li>MERN stack</li>
         <li>Material-ui</li>
         <li>REST api</li>
+        <li>Node.js</li>
       </ul>,
       <h3>Run LIVE DEMO to see the project!</h3>,
     ],
@@ -46,6 +67,7 @@ const Details = [
       <ul>
         <li>REACT</li>
         <li>API</li>
+        <li>Node.js</li>
       </ul>,
       <h3>Run LIVE DEMO to see the project!</h3>,
     ],
@@ -60,42 +82,15 @@ const Details = [
       <ul>
         <li>REACT</li>
         <li>API</li>
+        <li>Node.js</li>
       </ul>,
       <h3>Run LIVE DEMO to see the project!</h3>,
     ],
     Image: `${project4}`,
     url: "https://vigilant-roentgen-765a35.netlify.app/",
   },
-  {
-    ProjectNo: "SIMON'S GAME",
-    AboutProject: [
-      <p>A desktop game made using</p>,
-
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-      </ul>,
-      <h3>Only for PC. Run LIVE DEMO to see the project!</h3>,
-    ],
-    Image: `${project5}`,
-    url: "https://subham24488.github.io/simons_Game/",
-  },
-  {
-    ProjectNo: "SNAKE GAME",
-    AboutProject: [
-      <p>A desktop game made using</p>,
-
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-      </ul>,
-      <h3>Only for PC. Run LIVE DEMO to see the project!</h3>,
-    ],
-    Image: `${project6}`,
-    url: "https://subham24488.github.io/simons_Game/",
-  },
+  
+  
 ];
 
 export default Details;

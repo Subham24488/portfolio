@@ -26,9 +26,17 @@ const details = [
       <br />,
       "CSS3",
       <br />,
+      "SASS",
+      <br />,
+      "JAVA",
+      <br />,
+      "MySQL",
+      <br />,
       "Javascript",
       <br />,
       "React js",
+      <br />,
+      "Redux",
       <br />,
       "MongoDB",
       <br />,
@@ -63,6 +71,8 @@ const details = [
       <br />,
       <br />,
       "4:Machine Learning With PythonIndian Cyber Security Service, Kolkata. Jun 2019 - July 2019.",
+      <br />,
+      "5:Reactjs and Redux, Udemy, Online, December 2019 - March 2020",
     ],
   },
   {
@@ -80,6 +90,13 @@ const details = [
       <br />,
       "3.Participated in Global Entrepreneurship Summit in IIT Kharagpur.",
     ],
+  },
+  {
+    Year: "Internships",
+    SubHeading: "CodersArts",
+    Institution:"Full-Stack Developer",
+    Marks: "2nd September - Present",
+
   },
 ];
 export default details;
